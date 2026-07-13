@@ -2020,45 +2020,6 @@ html{
     margin-top:45px;
 
 }
-.uk-heart{
-
-    width:40px;
-    height:40px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    position:relative;
-
-    color:#f3f3f3;
-
-    font-family:'Cinzel',serif;
-
-    font-size:16px;
-
-    font-weight:bold;
-
-}
-
-
-.uk-heart::before{
-
-    content:"♥";
-    color:transparent;
--webkit-text-stroke:2px #d4af37;
-
-    position:absolute;
-
-    font-size:105px;
-
-    color:#d4af37;
-
-    z-index:-1;
-
-    line-height:1;
-
-}
 @media(max-width:768px){
 
     .couple-image{
@@ -2084,7 +2045,7 @@ html{
 
         object-fit:cover;
 
-        object-position:center top;
+        object-position:center;
 
     }
 
