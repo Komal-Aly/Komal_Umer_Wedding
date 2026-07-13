@@ -2020,19 +2020,20 @@ html{
     margin-top:45px;
 
 }
+/* Mobile section spacing fix */
+
 @media(max-width:768px){
 
     .couple-image{
 
         width:100%;
-
         height:auto;
 
-        aspect-ratio: 3 / 4;
-
-        overflow:hidden;
+        background:#fdf8f0;
 
         border-radius:25px;
+
+        overflow:hidden;
 
     }
 
@@ -2040,78 +2041,12 @@ html{
     .couple-image img{
 
         width:100%;
+        height:auto;
 
-        height:100%;
+        object-fit:contain;
 
-        object-fit:cover;
-
-        object-position:center;
-
-    }
-
-}
-/* Mobile section spacing fix */
-
-@media(max-width:768px){
-
-    section{
-
-        padding-top:40px;
-        padding-bottom:40px;
+        display:block;
 
     }
-
-
-    .section-title{
-
-        margin-bottom:15px;
-
-    }
-
-
-    .divider{
-
-        margin:10px 0;
-
-    }
-
-
-    .divider span{
-
-        font-size:35px;
-
-    }
-
-
-    .blessing-subtitle,
-    .scratch-text{
-
-        margin-bottom:25px;
-
-    }
-
-
-    .couple-card,
-    .blessing-card,
-    .scratch-card{
-
-        margin-top:20px;
-
-    }
-
-}
-@media(max-width:768px){
-
-#hero,
-#couple,
-#countdown,
-#events,
-#scratch-section,
-#blessings{
-
-    padding-top:0px;
-    padding-bottom:0px;
-
-}
 
 }
