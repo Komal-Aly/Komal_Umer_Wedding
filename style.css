@@ -1315,12 +1315,13 @@ inset 0 0 80px rgba(0,0,0,.8),
 
     border-radius:50%;
 
-    object-fit:cover;
+    object-fit:contain;
+
+    background:#fff;
 
     border:6px solid white;
 
 }
-
 .person h3{
 
     margin-top:25px;
