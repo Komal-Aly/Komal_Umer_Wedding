@@ -315,7 +315,6 @@ inset 0 0 80px rgba(0,0,0,.8),
     letter-spacing:3px;
 
     color:#ead9b8;
-    border-color: 1px solid #444;
 
 }
 
@@ -2058,5 +2057,106 @@ html{
     z-index:-1;
 
     line-height:1;
+
+}
+@media(max-width:768px){
+
+    .couple-card{
+
+        padding:25px 15px;
+
+        gap:25px;
+
+    }
+
+
+    .couple-image{
+
+        width:100%;
+
+        height:320px;
+
+        border-radius:25px;
+
+    }
+
+
+    .couple-image img{
+
+        width:100%;
+
+        height:100%;
+
+        object-fit:cover;
+
+        object-position:center;
+
+    }
+
+
+}
+/* Mobile section spacing fix */
+
+@media(max-width:768px){
+
+    section{
+
+        padding-top:40px;
+        padding-bottom:40px;
+
+    }
+
+
+    .section-title{
+
+        margin-bottom:15px;
+
+    }
+
+
+    .divider{
+
+        margin:10px 0;
+
+    }
+
+
+    .divider span{
+
+        font-size:35px;
+
+    }
+
+
+    .blessing-subtitle,
+    .scratch-text{
+
+        margin-bottom:25px;
+
+    }
+
+
+    .couple-card,
+    .blessing-card,
+    .scratch-card{
+
+        margin-top:20px;
+
+    }
+
+}
+@media(max-width:768px){
+
+#hero,
+#couple,
+#countdown,
+#events,
+#scratch-section,
+#blessings{
+
+    padding-top:0px;
+    padding-bottom:0px;
+
+}
 
 }
